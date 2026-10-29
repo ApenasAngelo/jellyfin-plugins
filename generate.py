@@ -9,6 +9,7 @@ Usage: GITHUB_TOKEN=... ./generate.py   (the token only raises the API rate limi
 """
 import hashlib
 import io
+import re
 import json
 import os
 import urllib.request
@@ -40,7 +41,7 @@ def main():
         releases = json.loads(get(f"https://api.github.com/repos/{entry['repo']}/releases?per_page=100"))
         plugin, versions = None, []
         for release in releases:
-            if release["draft"] or release["prerelease"] or not release["tag_name"].startswith("v"):
+            if release["draft"] or release["prerelease"] or not re.match(r"(encore-)?v\d", release["tag_name"]):
                 continue
             zips = [a for a in release["assets"] if a["name"].endswith(".zip")]
             if len(zips) != 1:
