@@ -1,0 +1,32 @@
+# Rebuilds manifest.json from the plugin releases. Runs hourly and on demand
+# (gh workflow run manifest.yml -R ApenasAngelo/jellyfin-plugins) right after a release.
+name: Update manifest
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: manifest
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 generate.py
+
+      - name: Commit
+        run: |
+          git diff --quiet manifest.json && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update manifest" manifest.json
+          git push

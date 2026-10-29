@@ -1,0 +1,14 @@
+[
+  {
+    "repo": "ApenasAngelo/jellyfin-plugin-home-sections-encore",
+    "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/encore/encore/banner.png"
+  },
+  {
+    "repo": "ApenasAngelo/jellyfin-plugin-media-bar-encore",
+    "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/encore/encore/banner.png"
+  },
+  {
+    "repo": "ApenasAngelo/jellyfin-plugin-fin-tweaks",
+    "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-fin-tweaks/main/assets/banner.png"
+  }
+]
