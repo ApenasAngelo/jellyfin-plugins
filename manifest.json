@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/encore/encore/banner.png",
     "versions": [
       {
+        "version": "1.0.0.2",
+        "changelog": "- Admin page: sections it does not know yet start disabled and admin-locked (saving the page used to enable every section).\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/releases/download/v1.0.0.2/Jellyfin.Plugin.HomeScreenSectionsEncore-1.0.0.2.zip",
+        "checksum": "657676fd654aeb5946db0e567bef5400",
+        "timestamp": "2026-10-29T23:50:17Z"
+      },
+      {
         "version": "1.0.0.1",
         "changelog": "- Report the real plugin version to Jellyfin (it showed 3.0.0.0), so updates are offered.\n",
         "targetAbi": "12.4.0.0",
