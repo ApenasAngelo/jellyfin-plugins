@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/encore/encore/banner.png",
     "versions": [
       {
+        "version": "1.0.0.3",
+        "changelog": "Genre rows that need no watch history, treating genre names in several languages as one\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/releases/download/v1.0.0.3/Jellyfin.Plugin.HomeScreenSectionsEncore-1.0.0.3.zip",
+        "checksum": "4a09c8a2fb54cd4ec685b5f3b2ca9898",
+        "timestamp": "2026-10-30T08:38:42Z"
+      },
+      {
         "version": "1.0.0.2",
         "changelog": "- Admin page: sections it does not know yet start disabled and admin-locked (saving the page used to enable every section).\n",
         "targetAbi": "12.4.0.0",
@@ -43,6 +51,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/encore/encore/banner.png",
     "versions": [
+      {
+        "version": "1.0.0.1",
+        "changelog": "Slides no longer advance while the banner is out of view; a pause now stops a trailer that was still loading\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/releases/download/encore-v1.0.0.1/Jellyfin.Plugin.MediaBarEncore-1.0.0.1.zip",
+        "checksum": "49a27973e8f588e041f3835f2d6c320c",
+        "timestamp": "2026-10-30T08:38:36Z"
+      },
       {
         "version": "1.0.0.0",
         "changelog": "First Encore release, based on Media Bar Enhanced 3.11.1.\n- The slideshow and the trailer pause while the banner is scrolled out of view.\n- Own GUID, name and assembly (Jellyfin.Plugin.MediaBarEncore). Replaces Media Bar Enhanced: uninstall it first.\n",
