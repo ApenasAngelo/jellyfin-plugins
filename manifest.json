@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/encore/encore/banner.png",
     "versions": [
       {
+        "version": "1.2.2.0",
+        "changelog": "Let only the newest load of a page draw. Clear the rows of the previous page at once. Redraw a page left without visible rows.\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/releases/download/v1.2.2.0/Jellyfin.Plugin.HomeScreenSectionsEncore-1.2.2.0.zip",
+        "checksum": "9d4f621ac75302bf722bc159ee7bd6e5",
+        "timestamp": "2026-10-30T23:41:08Z"
+      },
+      {
         "version": "1.2.1.0",
         "changelog": "Stop holding clicks after moving between library and collection pages. Going back keeps the rows, their order and the height of the page.\n",
         "targetAbi": "12.4.0.0",
@@ -91,6 +99,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/encore/encore/banner.png",
     "versions": [
+      {
+        "version": "1.2.1.0",
+        "changelog": "Hide slides, dots and timer of the previous page as soon as the page changes. Prepare the slide lists of libraries and collections in the background.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/releases/download/encore-v1.2.1.0/Jellyfin.Plugin.MediaBarEncore-1.2.1.0.zip",
+        "checksum": "490dfc0f2bcab62e620b8d711ac54cb5",
+        "timestamp": "2026-10-30T23:40:55Z"
+      },
       {
         "version": "1.2.0.1",
         "changelog": "Change the slides when the user moves to another page while the banner is still loading for the first time.\n",
