@@ -68,6 +68,14 @@
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/encore/encore/banner.png",
     "versions": [
       {
+        "version": "1.0.0.2",
+        "changelog": "The trailer fades in 3 s later, after YouTube's own pause icon is gone\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/releases/download/encore-v1.0.0.2/Jellyfin.Plugin.MediaBarEncore-1.0.0.2.zip",
+        "checksum": "9f387c3757e3d32eee26756f0f122f10",
+        "timestamp": "2026-10-30T09:22:00Z"
+      },
+      {
         "version": "1.0.0.1",
         "changelog": "Slides no longer advance while the banner is out of view; a pause now stops a trailer that was still loading\n",
         "targetAbi": "10.11.0.0",
