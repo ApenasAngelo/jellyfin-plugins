@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/encore/encore/banner.png",
     "versions": [
       {
+        "version": "1.2.0.0",
+        "changelog": "Open Movies, Shows, Anime and Collections in the home format, with rows and banner scoped to each library. Collection pages get the same layout. See all opens the native grid.\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/releases/download/v1.2.0.0/Jellyfin.Plugin.HomeScreenSectionsEncore-1.2.0.0.zip",
+        "checksum": "7ce8375faf61708db59f3e5d3884d69b",
+        "timestamp": "2026-10-30T19:33:23Z"
+      },
+      {
         "version": "1.1.0.0",
         "changelog": "fix(sections): do not keep an empty catalog for a day\n",
         "targetAbi": "12.4.0.0",
@@ -76,6 +84,14 @@
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/encore/encore/banner.png",
     "versions": [
       {
+        "version": "1.1.0.0",
+        "changelog": "Take the slides from the library or collection page being viewed. A failed trailer now behaves as a slide without trailer.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/releases/download/encore-v1.1.0.0/Jellyfin.Plugin.MediaBarEncore-1.1.0.0.zip",
+        "checksum": "62427ff3d14c8bdcad43e00f21662366",
+        "timestamp": "2026-10-30T19:33:19Z"
+      },
+      {
         "version": "1.0.0.4",
         "changelog": "fix(trailer): treat a failed trailer as a slide without trailer\n",
         "targetAbi": "10.11.0.0",
@@ -126,6 +142,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-fin-tweaks/main/assets/banner.png",
     "versions": [
+      {
+        "version": "1.1.0.0",
+        "changelog": "Add the wheel axis lock: the start of a gesture over a row decides between scrolling the row and the page. Off by default.\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-fin-tweaks/releases/download/v1.1.0.0/Jellyfin.Plugin.FinTweaks-1.1.0.0.zip",
+        "checksum": "849957c54f2e9a53ea375c187f8aea22",
+        "timestamp": "2026-10-30T19:33:24Z"
+      },
       {
         "version": "1.0.0.0",
         "changelog": "First release.\n- Global search: the search button always searches the whole server.\n",
