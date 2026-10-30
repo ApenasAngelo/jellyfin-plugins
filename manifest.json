@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/encore/encore/banner.png",
     "versions": [
       {
+        "version": "1.2.1.0",
+        "changelog": "Stop holding clicks after moving between library and collection pages. Going back keeps the rows, their order and the height of the page.\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-home-sections-encore/releases/download/v1.2.1.0/Jellyfin.Plugin.HomeScreenSectionsEncore-1.2.1.0.zip",
+        "checksum": "e618f9fa959eb87cefad1621a9ae4867",
+        "timestamp": "2026-10-30T21:14:40Z"
+      },
+      {
         "version": "1.2.0.0",
         "changelog": "Open Movies, Shows, Anime and Collections in the home format, with rows and banner scoped to each library. Collection pages get the same layout. See all opens the native grid.\n",
         "targetAbi": "12.4.0.0",
@@ -83,6 +91,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/encore/encore/banner.png",
     "versions": [
+      {
+        "version": "1.2.0.0",
+        "changelog": "Keep the pause across pages and out of view. Remove the banner from the Collections page. Open pages with a saved slide list, checked against the library. Add the Dot Carousel option.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/releases/download/encore-v1.2.0.0/Jellyfin.Plugin.MediaBarEncore-1.2.0.0.zip",
+        "checksum": "020b53725056e01f8e9ceeed4e5b3b11",
+        "timestamp": "2026-10-30T21:14:44Z"
+      },
       {
         "version": "1.1.0.0",
         "changelog": "Take the slides from the library or collection page being viewed. A failed trailer now behaves as a slide without trailer.\n",
