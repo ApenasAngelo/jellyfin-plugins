@@ -100,6 +100,14 @@
     "imageUrl": "https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/encore/encore/banner.png",
     "versions": [
       {
+        "version": "1.2.2.0",
+        "changelog": "Load the data of all slides in one request. Skip the search for local trailers when a remote one exists. Show the banner as soon as its first slide is ready.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ApenasAngelo/jellyfin-plugin-media-bar-encore/releases/download/encore-v1.2.2.0/Jellyfin.Plugin.MediaBarEncore-1.2.2.0.zip",
+        "checksum": "5504a627da541b55c1a570100a0a0246",
+        "timestamp": "2026-10-30T23:59:50Z"
+      },
+      {
         "version": "1.2.1.0",
         "changelog": "Hide slides, dots and timer of the previous page as soon as the page changes. Prepare the slide lists of libraries and collections in the background.\n",
         "targetAbi": "10.11.0.0",
